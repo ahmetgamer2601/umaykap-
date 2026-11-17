@@ -1,0 +1,20 @@
+{
+ "model": "yolox_kapi.onnx",
+ "input": 416,
+ "bgr": true,
+ "scale255": true,
+ "rawDecode": true,
+ "strides": [
+  8,
+  16,
+  32
+ ],
+ "classes": [
+  {
+   "en": "door",
+   "tr": "kapı",
+   "say": true,
+   "w": 1.2
+  }
+ ]
+}
